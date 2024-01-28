@@ -5,7 +5,7 @@ pipeline {
       stage("Clone the project") {
           steps{
            script{
-                mvn clean package
+                mvn clean test
           }
       	}
     }
