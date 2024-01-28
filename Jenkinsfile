@@ -6,7 +6,7 @@ pipeline {
       stage("Clone the project") {
           steps{
            script{
-                mvn compile
+                echo "it is a maven project"
           }
       	}
     }
