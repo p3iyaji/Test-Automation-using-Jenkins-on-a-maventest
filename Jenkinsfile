@@ -6,7 +6,7 @@ pipeline {
       stage("Clone the project") {
           steps{
            script{
-                sh 'mvn package'
+                sh 'mvn test'
           }
       	}
     }
