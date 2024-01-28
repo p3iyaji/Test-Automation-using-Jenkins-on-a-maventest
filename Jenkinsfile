@@ -9,8 +9,9 @@ pipeline {
            script{
                 mvn clean test
           }
-      }
+      	}
     }
 
 
+	}
 }
